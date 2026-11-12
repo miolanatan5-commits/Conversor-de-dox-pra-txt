@@ -1,0 +1,20 @@
+Conversor DOCX para TXT - versao 2
+
+Esta versao usa o toolchain atual do Code on the Go: Gradle 9.6.1 e plugin Android 9.3.1.
+
+COMO COMPILAR NO CODE ON THE GO
+1. Descompacte este ZIP.
+2. No Code on the Go, abra a pasta ConversorDocxTxt como projeto.
+3. Aguarde a sincronizacao do Gradle e compile (Build / Run).
+
+SE DER ERRO
+- Se reclamar de plataforma do Android (platforms;android-36) nao encontrada, troque o numero 36 em compileSdk e targetSdk no arquivo app/build.gradle pelo numero que aparecer na mensagem de erro ou que o seu Code on the Go tiver instalado.
+- Se reclamar da versao 9.3.1 no build.gradle da raiz, troque pelo numero de AGP que um projeto novo do Code on the Go usa.
+
+COMO USAR O APP
+- Toque em "Escolher arquivo DOCX", selecione o documento, depois escolha onde salvar.
+- Tambem funciona pelo Compartilhar ou Abrir com, em outros apps.
+- Se cancelar o salvamento, toque em "Salvar arquivo TXT".
+
+LIMITES
+Tabelas viram texto separado por tabulacao. Imagens, formatacao e notas de rodape nao sao convertidas.

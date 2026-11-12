@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Conversor DOCX para TXT</string>
+    <string name="title">Conversor de DOCX para TXT</string>
+    <string name="intro">Toque em Escolher arquivo, selecione um documento do Word e depois escolha onde salvar o arquivo de texto.</string>
+    <string name="btn_pick">Escolher arquivo DOCX</string>
+    <string name="btn_save">Salvar arquivo TXT</string>
+    <string name="status_ready">Pronto para começar.</string>
+    <string name="status_converting">Convertendo, aguarde.</string>
+    <string name="status_converted">Conversão concluída: %1$d palavras. Escolha onde salvar.</string>
+    <string name="status_empty">Não encontrei nenhum texto neste documento.</string>
+    <string name="status_error">Não foi possível converter. %1$s</string>
+    <string name="status_cancelled">Nenhum arquivo escolhido.</string>
+    <string name="status_save_cancelled">Salvamento cancelado. Toque em Salvar arquivo TXT para tentar de novo.</string>
+    <string name="status_saving">Salvando.</string>
+    <string name="status_saved">Pronto! Arquivo salvo: %1$s</string>
+    <string name="status_save_error">Não foi possível salvar. %1$s</string>
+    <string name="error_invalid">Este arquivo não parece ser um DOCX válido.</string>
+    <string name="default_name">documento</string>
+    <string name="preview_label">Prévia do texto convertido</string>
+</resources>
